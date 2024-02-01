@@ -1,0 +1,12 @@
+/*
+1. navbar always at top of viewport
+2. @media(x1)
+3. flexbox(x1)
+*/
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
